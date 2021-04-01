@@ -29,6 +29,7 @@ by using linux standard output I could get the expected result right.
 <img width="561" alt="스크린샷 2021-04-01 오후 9 17 06" src="https://user-images.githubusercontent.com/63792404/113292540-9d7ea200-932f-11eb-85b5-eab0dcf5d715.png">
 
 -Because of my ignorance, I have used time to check how much time it took for a program to complete.
+
 <img width="359" alt="스크린샷 2021-04-01 오후 9 29 55" src="https://user-images.githubusercontent.com/63792404/113293982-68734f00-9331-11eb-890b-028657522ea9.png">
 
 -If target code does not run properly, a user can kill the process using "kill -9 (PID)"
