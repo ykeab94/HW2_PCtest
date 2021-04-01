@@ -3,7 +3,7 @@
 - To start this homework, I have create directory /OS/HW2 under /home/s21900335/
 - First I made 2 C source codes files which are target and solution. A C source code file called "Target" receive inputs from user and prints out "Hello (user inputs)".
 - For C source code "Solution" which is almost same with Target code but it tells users if he or she types number instead of charaters.
--  In the homework, pctest uses a compiler to build two executable files respectively but I do not know how so I have done it by manually.
+-  In the homework, pctest uses a compiler to build two executable files respectively but I do not know how so I have done it by manually. Also I have tried to use Makefile but could not compile target.c and solution.c but have succeeded in compiling PCtest.exe which is the program that let target and solution run on different processes.
 -  <img width="342" alt="스크린샷 2021-04-01 오후 2 18 45" src="https://user-images.githubusercontent.com/63792404/113247067-2fb58480-92f5-11eb-8a1f-51b57de29278.png">
 -  <img width="337" alt="스크린샷 2021-04-01 오후 2 17 44" src="https://user-images.githubusercontent.com/63792404/113246989-08f74e00-92f5-11eb-94b8-d8dfa9b29a16.png">
   
