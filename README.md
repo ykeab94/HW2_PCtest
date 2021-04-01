@@ -28,45 +28,8 @@ by using linux standard output I could get the expected result right.
 <img width="561" alt="스크린샷 2021-04-01 오후 9 17 30" src="https://user-images.githubusercontent.com/63792404/113292581-ac655480-932f-11eb-99e1-2da17c2c1a04.png">
 <img width="561" alt="스크린샷 2021-04-01 오후 9 17 06" src="https://user-images.githubusercontent.com/63792404/113292540-9d7ea200-932f-11eb-85b5-eab0dcf5d715.png">
 
+-Because of my ignorance, I have used time to check how much time it took for a program to complete.
+<img width="359" alt="스크린샷 2021-04-01 오후 9 29 55" src="https://user-images.githubusercontent.com/63792404/113293982-68734f00-9331-11eb-890b-028657522ea9.png">
 
-
-
-
-
-
-
-
-
-
-
-
----------------------------------------------------------
--  and a set of program inputs _Tests_. 
-- 학생 프로그램과 꺼와 선생꺼의 프로그램이 런이 되어야 함.
-- 두 개의 프로그램 결과를 비교, 올바른 결과나 실패(오답을) 리턴하는지 결정짓기 위해.
-- 다양한 용도 프로세스 컨트롤 용도의 알맞는 시스템 라이버리 함수들을 찾아야함. 그리고 pctest를 만들 때 적합하게 사용해야 함.
-- 개인의 프로그램이 요구사항에 명시된데로 작동하는지를 보여주기 위해 비디오 영상도 제작해야 함.
-
-- pctest receives as input (1) two source code files, target and solution. 
-    - target은 c source code file
-    - solution은 맞는 c 코드.
-        - 포크를 만들어서 다른
-- (2) a set of program inputs Tests.
-- Tests consists of one to ten text files each of which is an input of target and solution.
-- a target (or solution) program is programmed to receive inputs only via the standard input and produce output only to the standard output.
-
-- after receiving source code files, pctest uses a compiler to build two executable files respectively, then runs these two executables with each of the test input file in Tests.
-- ***pctest determines whether the execution result of target for an input is correct or not by checking if the program terminated successfully and the texts produced to the standard output is identical to one that produced by solution. 
-- ***pctest displays the summary of the test results (see Section 2.3) via the standard output. The summary must include (1) whether the compilation was succeeded or not,(배열, 0,1) (2) the number of the correct test executions and the number of failed test executions, (3) the maximum and the minimum time of a single test execution, and the sum of all test execution time of target. Meanwhile, what target and solution print to the standard output must not be shown in the display. 
-- pctest launches target and solution with each input file in Tests one by one. for each test input, pctest must create one process for target and the other for solution and run them concurrently.
-- pctest must kill a process running target if its execution exceeds a predefined time limit, because it may run indefinitely. (Such a test execution should be recognized as a failed one.)
-- In addition, when running target on a new process, pctest must disallow the process to open a new file to limit the danger of executing untrusted student’s code on the instructor’s computer.
-- pctest determines that target fails for a given test input if the corresponding test execution falls into one of the following cases: 
-    - a crash (runtime/fatal error) occurs, or 
-    - the program returns an error code at termination, or 
-    - the program does not terminate within a certain amount of execution time (i.e., time over), or 
-    - the text printed to the standard output is not identical to that of solution
-    - pctest also measures the test execution time to maintain the following three values: 
-        - the maximum execution time of a single test run in milliseconds, and 
-        - the minimum execution time of a single test run in milliseconds, and 
-        - the sum of the execution time of all test runs in milliseconds.
+-If target code does not run properly, a user can kill the process using "kill -9 (PID)"
+<img width="1282" alt="스크린샷 2021-04-01 오후 9 26 11" src="https://user-images.githubusercontent.com/63792404/113293711-15010100-9331-11eb-8a73-7049a879acd0.png">
