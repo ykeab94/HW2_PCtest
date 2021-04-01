@@ -18,6 +18,11 @@
 - <img width="366" alt="스크린샷 2021-04-01 오후 2 26 48" src="https://user-images.githubusercontent.com/63792404/113247585-4c9e8780-92f6-11eb-8773-bfc96ed06419.png">
 by using linux standard output I could get the expected result right. 
 
+- A student may submit a C source code with an error such as shown below picture.
+- <img width="413" alt="스크린샷 2021-04-01 오후 6 02 06" src="https://user-images.githubusercontent.com/63792404/113270563-926a4880-9314-11eb-8cf0-a04f476fe131.png">
+- In order to capture this error I have used "gcc -o target target.c 2> log" and able to capture the error.<img width="564" alt="스크린샷 2021-04-01 오후 6 05 53" src="https://user-images.githubusercontent.com/63792404/113270885-e7a65a00-9314-11eb-8d60-52e596456b3c.png">
+- In order to close the file that runs forever, one way is using setitimer
+
 
 
 
