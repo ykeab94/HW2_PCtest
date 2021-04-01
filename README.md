@@ -30,6 +30,7 @@ by using linux standard output I could get the expected result right.
 
 
 
+
 ---------------------------------------------------------
 -  and a set of program inputs _Tests_. 
 - 학생 프로그램과 꺼와 선생꺼의 프로그램이 런이 되어야 함.
