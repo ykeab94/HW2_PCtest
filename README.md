@@ -6,10 +6,30 @@
 -  In the homework, pctest uses a compiler to build two executable files respectively but I do not know how so I have done it by manually.
 -  <img width="342" alt="스크린샷 2021-04-01 오후 2 18 45" src="https://user-images.githubusercontent.com/63792404/113247067-2fb58480-92f5-11eb-8a1f-51b57de29278.png">
 -  <img width="337" alt="스크린샷 2021-04-01 오후 2 17 44" src="https://user-images.githubusercontent.com/63792404/113246989-08f74e00-92f5-11eb-94b8-d8dfa9b29a16.png">
--  
+  
+- To find out whether both target and solution file works, I have created input
+- <img width="366" alt="스크린샷 2021-04-01 오후 2 33 18" src="https://user-images.githubusercontent.com/63792404/113248073-3513ce80-92f7-11eb-8ac7-6e1f16854211.png">
+- and using this input I got results that I wanted from running target and solution file.
+- <img width="366" alt="스크린샷 2021-04-01 오후 2 35 24" src="https://user-images.githubusercontent.com/63792404/113248246-802de180-92f7-11eb-8bcb-01197033e6ce.png">
 
+- Moreover, because of my ignorance, I have compared the results of target and solution file manually to get the result I wanted.
 - <img width="342" alt="스크린샷 2021-04-01 오후 2 21 20" src="https://user-images.githubusercontent.com/63792404/113247217-8a4ee080-92f5-11eb-9467-e9ab68c5b8a5.png">
+- <img width="366" alt="스크린샷 2021-04-01 오후 2 26 48" src="https://user-images.githubusercontent.com/63792404/113247585-4c9e8780-92f6-11eb-8773-bfc96ed06419.png">
+by using linux standard output I could get the expected result right. 
 
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------
 -  and a set of program inputs _Tests_. 
 - 학생 프로그램과 꺼와 선생꺼의 프로그램이 런이 되어야 함.
 - 두 개의 프로그램 결과를 비교, 올바른 결과나 실패(오답을) 리턴하는지 결정짓기 위해.
