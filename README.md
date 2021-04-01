@@ -8,6 +8,7 @@
 -  <img width="337" alt="스크린샷 2021-04-01 오후 2 17 44" src="https://user-images.githubusercontent.com/63792404/113246989-08f74e00-92f5-11eb-94b8-d8dfa9b29a16.png">
   
 - To find out whether both target and solution file works, I have created input
+<img width="366" alt="스크린샷 2021-04-01 오후 2 36 38" src="https://user-images.githubusercontent.com/63792404/113248326-aeabbc80-92f7-11eb-9108-f8566832f0b8.png">
 - <img width="366" alt="스크린샷 2021-04-01 오후 2 33 18" src="https://user-images.githubusercontent.com/63792404/113248073-3513ce80-92f7-11eb-8ac7-6e1f16854211.png">
 - and using this input I got results that I wanted from running target and solution file.
 - <img width="366" alt="스크린샷 2021-04-01 오후 2 35 24" src="https://user-images.githubusercontent.com/63792404/113248246-802de180-92f7-11eb-8bcb-01197033e6ce.png">
