@@ -1,5 +1,7 @@
 # HW2_PCtest
 
+video link : https://drive.google.com/file/d/1WyqdW7jurF8P165EjFcBYeZkabpvVE8_/view?usp=sharing
+
 - To start this homework, I have create directory /OS/HW2 under /home/s21900335/
 - First I made 2 C source codes files which are target and solution. A C source code file called "Target" receive inputs from user and prints out "Hello (user inputs)".
 - For C source code "Solution" which is almost same with Target code but it tells users if he or she types number instead of charaters.
