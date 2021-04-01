@@ -24,6 +24,9 @@ by using linux standard output I could get the expected result right.
 - <img width="564" alt="스크린샷 2021-04-01 오후 6 05 53" src="https://user-images.githubusercontent.com/63792404/113270885-e7a65a00-9314-11eb-8d60-52e596456b3c.png">
 - In order to close the file that runs forever, one way is using setitimer
 
+-To run target and answer file, first I made a parent and child process by using fork() and able to run target program on child process and run answer program on parent process.
+<img width="561" alt="스크린샷 2021-04-01 오후 9 17 30" src="https://user-images.githubusercontent.com/63792404/113292581-ac655480-932f-11eb-99e1-2da17c2c1a04.png">
+<img width="561" alt="스크린샷 2021-04-01 오후 9 17 06" src="https://user-images.githubusercontent.com/63792404/113292540-9d7ea200-932f-11eb-85b5-eab0dcf5d715.png">
 
 
 
